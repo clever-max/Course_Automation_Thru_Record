@@ -8,7 +8,8 @@
 **Course Automation Through Record** 是一个完整的网课自动化学习解决方案，包含智能录制和自动化回放功能。通过浏览器扩展录制操作，使用桌面应用程序自动执行，帮助用户高效完成网课学习任务。
 
 ---
-[下载最新版本（当前v1.1）](https://github.com/clever-max/Course_Automation_Thru_Record/releases/)
+**点击下方链接下载必要文件**
+[**下载最新版本（当前v1.1）**](https://github.com/clever-max/Course_Automation_Thru_Record/releases/)
 ## ✨ 核心特性
 
 | 特性 | 描述 |
@@ -26,7 +27,7 @@
 
 ### 第一步：安装浏览器扩展
 
-下载extension.zip，并解压到一个你能找到的目录
+**在顶部Releases下载extension.zip**，并解压到一个你能找到的目录
 [Chrome/Edge浏览器离线安装插件全攻略](https://blog.csdn.net/chouchoubuchou/article/details/146294436)
 
 ### 第二步：运行桌面应用程序
