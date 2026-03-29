@@ -26,17 +26,8 @@
 
 ### 第一步：安装浏览器扩展
 
-**方法A：直接安装CRX文件（推荐）**
-1. 打开Chrome/Edge浏览器，进入扩展管理页面 (`chrome://extensions/`)
-2. 开启右上角的"开发者模式"
-3. 将 `project/ActionRecord_for_Chromium.crx` 文件拖拽到扩展页面
-4. 点击"添加扩展"
-
-**方法B：加载解压扩展**
-1. 在扩展管理页面开启"开发者模式"
-2. 点击"加载已解压的扩展程序"
-3. 选择 `project/extension` 目录
-4. 确认安装
+下载extension.zip，并解压到一个你能找到的目录
+[Chrome/Edge浏览器离线安装插件全攻略](https://blog.csdn.net/chouchoubuchou/article/details/146294436)
 
 ### 第二步：运行桌面应用程序
 
