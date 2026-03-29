@@ -1,0 +1,20 @@
+# 浏览器驱动
+msedgedriver.exe
+chromedriver.exe
+
+# 临时文本文件
+*.txt
+
+# 文档文件
+WEBSITE_DOCUMENTATION.md
+
+# 扩展相关文件
+extension.pem
+extension.zip
+
+# 项目文档
+project/README.md
+
+# 录制文件（JSON）
+project/recording-*.json
+project/whole_*.json
