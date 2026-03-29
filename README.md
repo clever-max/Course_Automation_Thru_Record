@@ -8,7 +8,7 @@
 **Course Automation Through Record** 是一个完整的网课自动化学习解决方案，包含智能录制和自动化回放功能。通过浏览器扩展录制操作，使用桌面应用程序自动执行，帮助用户高效完成网课学习任务。
 
 ---
-
+[下载最新版本（当前v1.1）](https://github.com/clever-max/Course_Automation_Thru_Record/releases/)
 ## ✨ 核心特性
 
 | 特性 | 描述 |
