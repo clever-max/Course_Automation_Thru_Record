@@ -12,7 +12,7 @@
 ***
 
 **点击下方链接下载必要文件**
-**[下载最新版本（当前v1.1）](https://github.com/clever-max/Course_Automation_Thru_Record/releases/)**
+**[下载最新版本（当前v2.1）](https://github.com/clever-max/Course_Automation_Thru_Record/releases/)**
 
 ## ✨ 核心特性
 
