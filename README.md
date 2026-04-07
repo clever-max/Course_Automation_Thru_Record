@@ -1,9 +1,4 @@
-# Course Automation Through Record v2.1
-
-![版本](https\://img.shields.io/badge/版本-v2.0-blue null)
-![Python](https\://img.shields.io/badge/Python-3.9%2B-green null)
-![浏览器](https\://img.shields.io/badge/浏览器-Chrome/Edge-orange null)
-![许可证](https\://img.shields.io/badge/许可证-MIT-lightgrey null)
+# Course Automation Through Record v2.0
 
 **Course Automation Through Record** 是一个完整的网课自动化学习解决方案，包含智能录制和自动化回放功能。通过浏览器扩展录制操作，使用桌面应用程序自动执行，帮助用户高效完成网课学习任务。
 
