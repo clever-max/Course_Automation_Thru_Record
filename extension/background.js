@@ -60,14 +60,23 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     const absoluteTime = typeof message.timestamp === "number" ? message.timestamp : Date.now();
     const relativeTime = Math.max(0, absoluteTime - recordingStartTime);
 
-    actions.push({
+    // v2.0 格式：支持混合策略定位系统
+    const actionRecord = {
       action: normalizeEventAction(message.action),
       xpath: message.xpath || null,
       value: message.value ?? null,
       url: message.url || sender?.url || null,
       iframePath: Array.isArray(message.iframePath) ? message.iframePath : [],
-      time: relativeTime
-    });
+      time: relativeTime,
+      // v2.0 新增字段
+      selectorType: message.selectorType || null,
+      selectorPriority: message.selectorPriority || null,
+      cssSelector: message.cssSelector || null,
+      readySelector: message.readySelector || null,
+      selectors: Array.isArray(message.selectors) ? message.selectors : null
+    };
+
+    actions.push(actionRecord);
 
     sendResponse({ ok: true });
     return true;

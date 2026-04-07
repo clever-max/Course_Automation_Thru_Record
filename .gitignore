@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+env/
+ENV/
+
+# Build and Package
+dist/
+build/
+*.egg-info/
+*.spec
+
+# Browser Drivers
+msedgedriver.exe
+chromedriver.exe
+
+# Executables and Packages
+*.exe
+*.crx
+*.zip
+*.pem
+
+# Text and Logs
+*.txt
+*.log
+
+# Generated test/recordings
+json/
+output/
+*.json
+!extension/manifest.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

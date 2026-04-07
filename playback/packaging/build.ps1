@@ -106,7 +106,7 @@ if (!(Test-Path $outputDir)) {
 }
 
 $readmeContent = @"
-Course Playback Assistant v1.0.0
+Course Playback Assistant v2.0.0
 ==================
 
 Quick Start:
@@ -131,7 +131,7 @@ Logs:
 
 Support:
 - Record scripts using the companion browser extension
-- Extension folder: project/extension
+- Extension folder: extension
 "@
 
 $readmeContent | Out-File -FilePath "$outputDir\README.txt" -Encoding UTF8

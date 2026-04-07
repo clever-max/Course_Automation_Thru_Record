@@ -12,7 +12,7 @@
 ***
 
 **点击下方链接下载必要文件**
-**[下载最新版本（当前v1.1）](https://github.com/clever-max/Course_Automation_Thru_Record/releases/)**
+**[下载最新版本（当前v2.0）](https://github.com/clever-max/Course_Automation_Thru_Record/releases/)**
 
 ## ✨ 核心特性
 
@@ -283,24 +283,23 @@ v2.0 完全兼容 v1.x 的录制文件格式：
 
 ```
 项目目录/
-├── Course_Automation_Thru_Record_v2.0.exe    # 桌面应用程序
-├── ActionRecord_for_Chromium.crx             # 浏览器扩展文件
-├── project/                                  # 项目源码
-│   ├── extension/                            # 扩展源代码
-│   │   ├── manifest.json                     # 扩展配置
-│   │   ├── content.js                        # 内容脚本（智能定位）
-│   │   ├── background.js                     # 后台脚本
-│   │   ├── popup.html                        # 弹出界面
-│   │   └── popup.js                          # 弹出界面逻辑
-│   ├── playback/                            # 回放引擎源码
-│   │   ├── main.py                          # 命令行入口
-│   │   ├── engine.py                        # 核心引擎（v2.0）
-│   │   ├── gui.py                           # GUI界面
-│   │   ├── video_detector.py                # 视频检测
-│   │   ├── utils.py                         # 工具函数
-│   │   └── requirements.txt                 # Python依赖
-│   └── *.json                               # 示例录制文件
-└── README.md                                # 本文档
+├── extension/                                # 扩展源代码
+│   ├── manifest.json                         # 扩展配置
+│   ├── content.js                            # 内容脚本（智能定位）
+│   ├── background.js                         # 后台脚本
+│   ├── popup.html                            # 弹出界面
+│   └── popup.js                              # 弹出界面逻辑
+├── playback/                                 # 回放引擎源码
+│   ├── main.py                               # 命令行入口
+│   ├── engine.py                             # 核心引擎（v2.0）
+│   ├── gui.py                                # GUI界面
+│   ├── video_detector.py                     # 视频检测
+│   ├── utils.py                              # 工具函数
+│   ├── packaging/                            # 打包脚本
+│   │   └── build.ps1                         # 一键打包脚本
+│   └── requirements.txt                      # Python依赖
+├── .gitignore                                # Git忽略配置
+└── README.md                                 # 本文档
 ```
 
 ### 技术栈
