@@ -1,4 +1,4 @@
-# Course Automation Through Record v2.0
+# Course Automation Through Record v2.1
 
 !\[版本]\(https\://img.shields.io/badge/版本-v2.0-blue null)
 !\[Python]\(https\://img.shields.io/badge/Python-3.9%2B-green null)
